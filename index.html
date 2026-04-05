@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Editz Studio</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  background: black;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: gold;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+button {
+  padding: 12px 25px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1a1a1a;
+  margin: 15px;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  margin-top: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  📸 Royal Editz Studio
+</header>
+
+<section class="hero">
+  <h1>Professional Photo Editing</h1>
+  <p>Background Change | Wedding Editing | Instagram Editing</p>
+  <button onclick="whatsapp()">Order Now</button>
+</section>
+
+<section>
+  <h2 style="text-align:center;">Our Services</h2>
+  <div class="services">
+    <div class="card">🎯 Background Change</div>
+    <div class="card">💍 Wedding Editing</div>
+    <div class="card">📸 Instagram Editing</div>
+  </div>
+</section>
+
+<section>
+  <h2 style="text-align:center;">Portfolio</h2>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/250">
+    <img src="https://via.placeholder.com/250">
+    <img src="https://via.placeholder.com/250">
+  </div>
+</section>
+
+<footer>
+  © 2026 Royal Editz Studio
+</footer>
+
+<script>
+function whatsapp() {
+  window.open("https://wa.me/919587950607", "_blank");
+}
+</script>
+
+</body>
+</html>
